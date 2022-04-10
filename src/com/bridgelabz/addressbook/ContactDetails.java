@@ -1,11 +1,6 @@
 package com.bridgelabz.addressbook;
 
 public class ContactDetails {
-    /**
-     * private variables can only be accessed within the same class (an outside
-     * class has no access to it) private = restricted access However, it is
-     * possible to access them if we provide public get and set methods.
-     */
     private String firstName;
     private String lastName;
     private String address;
@@ -31,17 +26,21 @@ public class ContactDetails {
         this.emailId = emailId;
     }
 
+
     public String getFirstName() {
         return firstName;
     }
+
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+
     public String getLastName() {
         return lastName;
     }
+
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
@@ -55,43 +54,49 @@ public class ContactDetails {
         this.address = address;
     }
 
+
     public String getCity() {
         return city;
     }
+
 
     public void setCity(String city) {
         this.city = city;
     }
 
+
     public String getState() {
         return state;
     }
+
 
     public void setState(String state) {
         this.state = state;
     }
 
-
     public int getZipCode() {
         return zipCode;
     }
+
 
     public void setZipCode(int zipCode) {
         this.zipCode = zipCode;
     }
 
+
     public long getMobileNumber() {
         return mobileNumber;
     }
+
 
     public void setMobileNumber(long mobileNumber) {
         this.mobileNumber = mobileNumber;
     }
 
+
     public String getEmailId() {
         return emailId;
     }
-
 
     public void setEmailId(String emailId) {
         this.emailId = emailId;
